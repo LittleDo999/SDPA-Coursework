@@ -21,4 +21,7 @@ else:
         print ("Before the month starts, there are some owner actions for you to carry out. First, review the number of staff, then decide how many bouquets to sell.")
         print ("How many florist would you like to hire?")
         staff = input()
+
+
+
         

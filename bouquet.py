@@ -17,30 +17,5 @@ bouquet2 = Bouquet("Be-Leaf in Yourself", 2, 1, 3, 30, 100, 17.75)
 bouquet3 = Bouquet("You Rose to the Occasion", 2, 4, 2, 45, 250, 32.50)
 
 
-class Flower:
-    def __init__(self, name, capacity, depreciation, cost):
-        self.name = name # Attribute for the flower name
-        self.capacity = capacity # Attribute for the Greenhouse Capacity
-        self.depreciation = depreciation # Attribute for the flower depreciation
-        self.cost = cost # Attribute for the Greenhouse Costs
 
-# Create objects from the class
-
-Roses = Flower("Roses", 200, 0.40, 1.50)
-Daisies = Flower("Daisies", 250, 0.15, 0.80)
-Greenery = Flower("Greenery", 400, 0.05, 0.20)
-
-
-class Vendor:
-    def __init__(self, name, costs_r, costs_d, costs_g):
-        self.name = name #Attribute for the vendor's name
-        self.costs_r = costs_r #Attribute for the costs of roses per bunch
-        self.costs_d = costs_d #Attribute for the costs of daisies per bunch
-        self.costs_g = costs_g #Attribute for the costs of greenery per bunch
-
-
-# Create objects from the class
-
-Vendor1 = Vendor("Evergreen Essentials", 2.80, 1.50, 0.95)
-Vendor2 = Vendor("FloraGrow Distributors", 1.60, 1.20, 1.80)
     
